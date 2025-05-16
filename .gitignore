@@ -1,0 +1,76 @@
+```
+## .gitignore for .NET 9 Projects
+
+# Build results
+bin/
+obj/
+out/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.swp
+
+# Rider
+.idea/
+
+# VS Code
+.vscode/
+
+# DotCover
+*.dotCover
+
+# Logs
+*.log
+
+# Auto-generated files
+Generated\_*
+*.g.cs
+*.g.i.cs
+
+# Packages (NuGet, npm etc.)
+*.nupkg
+*.snupkg
+*.tgz
+packages/
+node_modules/
+
+# Others
+*.cache
+*.tmp
+*.bak
+*.orig
+
+# Secrets
+secrets.json
+*.pfx
+*.key
+*.cer
+*.pem
+
+# Global JetBrains
+~/.idea/
+
+# Local test results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Resharper
+_ReSharper*/
+*.DotSettings.user
+
+# Dotnet-specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+*.deps.json
+*.runtimeconfig.json
+*.dll
+*.exe
+*.pdb
+*.mdb
+```
